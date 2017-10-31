@@ -1,0 +1,81 @@
+.day{
+
+    height: 70px;
+    width: 100px;
+    border: 1px solid black;
+    padding: 0;
+    position: relative;
+}
+.dayNumber{
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.dayNumber:hover{
+    text-decoration: underline;
+}
+.day:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+
+.weekCalendarTd{
+    border: 1px solid black;
+    height: 8px;
+}
+
+.calendar{
+    padding-top: 20px;
+}
+.top-panel{
+    width: 960px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.buttons-next-prev{
+    width: 240px;
+}
+.month-name{
+
+    width: 440px;
+    text-align: center;
+}
+.buttons-type{
+    width: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-type input{
+    margin-right: 20px;
+}
+.calendar-table{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 450px;
+    overflow-y: auto;
+
+}
+
+.month-table{
+    width: 920px;
+    height: 450px;
+    border-collapse: collapse;
+}
+
+.week-table{
+    width: 900px;
+    border-collapse: collapse;
+}
+
+.days-table{
+    width: 900px;
+    border-collapse: collapse;
+}
+
+.current-day{
+    background-color: greenyellow;
+}

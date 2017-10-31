@@ -1,0 +1,253 @@
+.divDisplayClass{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.divDisplayPlanClass{
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    border: 1px solid pink;
+    background-color: pink;
+    height: 100%;
+}
+
+.divDisplayDateClass{
+
+    box-sizing: border-box;
+    border: 1px solid red;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+}
+
+.tableDateDisplayPanel{
+    font-size: 15px;
+    float: left;
+}
+.tableDateDisplayPanel th{
+    margin: 0;
+    padding: 0;
+}
+.tableDateDisplayPanel td{
+    border: 1px solid black;
+    text-align: center;
+    width: 30px;
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+    border-radius: 25%;
+}
+
+.divDateDisplayPanel{
+    font-size: 20px;
+    padding-left: 10px;
+    width: 150px;
+    float: left;
+    margin: 10px;
+    border-left: 2px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.divDateDisplayPanel div{
+    text-align: center;
+}
+.divDateDisplayPanel div:first-child{
+    width: 140px;
+}
+
+.divDateDisplayPanel div:not(:first-child){
+    width: 100px;
+}
+
+.divDisplayHourClass{
+    box-sizing: border-box;
+    border: 1px solid green;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+}
+
+.divTitleDisplayPanel{
+    border-bottom: 2px dashed black;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 0 auto 10px auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.divHourBottomClass{
+    padding-bottom:10px;
+}
+.hourTable{
+    float: left;
+    padding-right: 5px;
+    border-right: 2px dashed black;
+}
+
+.hourTable td{
+    border: 1px solid black;
+    border-radius: 25%;
+    text-align: center;
+
+    font-size: 15px;
+    padding: 2px;
+}
+
+.tableDateDisplayPanel td:hover,
+.hourTable td:hover{
+    font-weight: bold;
+    background-color: lightgray;
+    border-color: dodgerblue;
+    cursor: pointer;
+}
+
+.divHourDisplayClass{
+
+    float: left;
+    margin-left: 25px;
+    padding: 5px 10px;
+    text-align: center;
+
+}
+
+.displayPartClockClass{
+    float: left;
+    padding: 5px;
+}
+
+.displayPartClockClass div{
+    border: 1px solid black;
+    padding: 2px;
+    width: 26px;
+    user-select: none;
+}
+.displayUpClass{
+    font-size: 15px;
+    opacity: 0.5;
+    position: relative;
+}
+
+.displayUpClass:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.displayUpClass:before{
+    top: -6px;
+    left: 0;
+    position: absolute;
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 5px solid black;
+
+}
+.displayActualClockClass{
+    font-size: 20px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.displayDownClass{
+    font-size: 15px;
+    opacity: 0.5;
+    position: relative;
+}
+
+.displayDownClass:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.displayDownClass:after{
+    bottom: -6px;
+    left: 0;
+    position: absolute;
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 5px solid black;
+
+}
+
+.divDisplayTitleClass{
+
+    box-sizing: border-box;
+    border: 1px solid blue;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+}
+
+.divTitleBottomClass{
+    border: 1px solid black;
+    margin: 5px auto;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.divTableBottom{
+    overflow-y: auto;
+    height: 60px;
+    width: 55%;
+}
+.divTitleBottomClass table{
+    border-spacing: 0;
+}
+.divTitleBottomClass table tr{
+    margin-top: 2px;
+}
+
+.divTitleChoice{
+
+}
+.choiceListNameClass{
+    width: 40%;
+    border: 1px solid black;
+}
+
+.choiceListColorClass{
+    border: 1px solid black;
+
+}
+.divDisplayTextClass{
+    box-sizing: border-box;
+    border: 1px solid yellow;
+
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.textAreaInput{
+    height: 100px;
+    width: 55%;
+    resize: none;
+    margin-right: 40px;
+}
+
+.inputDisplaySend{
+    height: 50px;
+}
+
+.clear{
+    clear: both;
+}
+
+.float{
+    width: 60%;
+    float: left;
+}
